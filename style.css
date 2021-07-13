@@ -1,0 +1,88 @@
+body{
+    background-color: #EAECEE ;
+  }
+  .navbar{
+    background-color: rgba(35, 37, 38) ;
+  }
+
+  .nav li :hover{
+    color: rgb(74, 193, 230);
+  }
+
+  .nav a {
+    color: #ddd;
+  }
+  
+  .login a{
+    color: #ddd;
+  }
+  
+  
+
+  .jumbotron{
+    background: linear-gradient(to bottom, rgba(35, 37, 38 ), rgba(65, 67, 69));
+  }
+ 
+  .middle {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  section h2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    width: 120px;
+    height: 1px;
+    background-color: #ddd;
+    left: calc(50% - 60px);
+  }
+  
+  section h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    width: 40px;
+    height: 4px;
+    background-color: #F84744;
+    left: calc(50% - 20px);
+  }
+  .koleksi1 {
+    text-align: center; 
+    font-weight: lighter; 
+  }
+  .koleksi1 h1 {
+    opacity: 80%;
+  }
+  .koleksi1 p{
+    opacity: 50%;
+  }
+  .koleksi2 {
+    text-align: center; 
+    font-weight: lighter; 
+  }
+  .koleksi2 h1 {
+    opacity: 80%;
+  }
+  .koleksi2 p{
+    opacity: 50%;
+  }
+
+  .list {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-weight: lighter;
+    padding-left: 39%;
+  }
+  /* LIST */
+  .list td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+  .list tr:nth-child(even) {
+    background-color: #dddddd;
+  }
